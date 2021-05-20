@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#1C044D">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:src="@mipmap/bus_icon"
+          android:layout_gravity="center"
+         android:paddingTop="60dp"   >
+    </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingTop="90dp"
+            android:paddingRight="2dp"
+            android:text="Bus Management System is an Android Application which helps students to locate the Bus current position. It is useful because most of the student miss their bus then it difficult to them to in time at college. So, BMS is there to eliminate this problem that students face now a day. Not only this but BMS can show number of Buses available for student path.
+
+Administrator has the power to add new student and Bus driver and can edit and delete them. Students can view his/her profile and check the bus status. All the information about the student and driver is available on this software. So, our aim is to eliminate the problem which student face while catching bus.
+
+"
+            android:textColor="#FFFF"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

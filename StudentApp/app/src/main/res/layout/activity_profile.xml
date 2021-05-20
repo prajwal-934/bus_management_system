@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F2F2F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:paddingRight="2dp"
+            android:text="STUDENT PROFILE"
+            android:textColor="#000000"
+            android:textSize="26dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Student ID:"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+
+            android:paddingRight="2dp"
+            android:textColor="#000000"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Name:"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+
+            android:paddingRight="2dp"
+            android:textColor="#000000"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Email :"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+
+            android:paddingRight="2dp"
+            android:textColor="#000000"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Roll Number :"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/roll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="0dp"
+            android:paddingLeft="20dp"
+
+            android:paddingRight="2dp"
+            android:textColor="#000000"
+            android:textSize="23dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Select Bus Stop Location :"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/bt_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="#3F51B5"
+            android:shadowColor="#221D1D"
+            android:text="Select Location"
+            android:textColor="#FFFFFF">
+
+
+        </Button>
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-smallcaps"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="2dp"
+            android:text="Select Bus Stop Location :"
+            android:textColor="#000000"
+            android:textSize="18dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
